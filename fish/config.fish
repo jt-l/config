@@ -11,6 +11,7 @@
   alias cr="cargo run"
   alias ca="cargo add"
   alias cs="cargo search"
+  alias cc="cargo check"
 
   ## git
   alias gs="git status"
@@ -23,7 +24,6 @@
   alias g="git"
   alias ga="git add"
   alias gu="git update"
-
 
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
