@@ -23,3 +23,7 @@
   alias g="git"
   alias ga="git add"
   alias gu="git update"
+
+
+  ## rust
+  export PATH="$HOME/.cargo/bin:$PATH"
