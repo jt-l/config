@@ -3,8 +3,6 @@ CONFIG
 
 my config files
 
-## PROGRAMS
-
 shell - fish (https://github.com/fish-shell/fish-shell)
 
 shell prompt - pure (https://github.com/rafaelrinaldi/pure)
