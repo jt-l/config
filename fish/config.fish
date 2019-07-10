@@ -35,3 +35,6 @@
 
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
+
+  ## path to editor bin
+  export EDITOR="/usr/local/bin/nvim"
