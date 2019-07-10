@@ -16,3 +16,5 @@ terminal emulator - alacritty (https://github.com/jwilm/alacritty)
 editor - nvim (https://github.com/neovim/neovim)
 
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
+
+terminal multiplexer - tmux (https://github.com/tmux/tmux)

@@ -25,5 +25,13 @@
   alias ga="git add"
   alias gu="git update"
 
+  ## tmux 
+  alias t="tmux"
+  alias ta="tmux attach -t"
+  alias td="tmux detach"
+  alias tk="tmux kill-session -t"
+  alias tls="tmux ls"
+  alias tn="tmux new -s"
+
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
