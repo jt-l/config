@@ -37,6 +37,7 @@
   alias s="spotify"
   alias sp="spotify play"
   alias sn="spotify next"
+  alias spa="spotify pause"
   alias spre="spotify prev"
   alias ss="spotify status"
   alias svu="spotify vol up"
