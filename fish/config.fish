@@ -36,7 +36,7 @@
   ## spotify commands
   alias s="spotify"
   alias sp="spotify play"
-  alias sn="spotify next"
+  alias sn="clear; spotify next"
   alias spa="spotify pause"
   alias spre="spotify prev"
   alias ss="spotify status"
