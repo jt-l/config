@@ -33,6 +33,19 @@
   alias tls="tmux ls"
   alias tn="tmux new -s"
 
+  ## spotify commands
+  alias s="spotify"
+  alias sp="spotify play"
+  alias sn="spotify next"
+  alias spre="spotify prev"
+  alias ss="spotify status"
+  alias svu="spotify vol up"
+  alias svd="spotify vol down"
+  alias sv="spotify vol"
+
+  ## spotify playlists
+  alias sp_parov="spotify play uri spotify:playlist:4n5eJ2OKEOE2lEStnUasAq"
+
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
 

@@ -1,7 +1,7 @@
 CONFIG
 =
 
-my config files
+config + useful programs
 
 shell - fish (https://github.com/fish-shell/fish-shell)
 
@@ -13,8 +13,10 @@ fuzzy finder - fzf (https://github.com/junegunn/fzf)
 
 terminal emulator - alacritty (https://github.com/jwilm/alacritty)
 
+terminal multiplexer - tmux (https://github.com/tmux/tmux)
+
 editor - nvim (https://github.com/neovim/neovim)
 
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
 
-terminal multiplexer - tmux (https://github.com/tmux/tmux)
+cli music - shpotify (https://github.com/hnarayanan/shpotify)
