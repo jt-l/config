@@ -20,3 +20,5 @@ editor - nvim (https://github.com/neovim/neovim)
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
 
 cli music - shpotify (https://github.com/hnarayanan/shpotify)
+
+terminal dashboard - wtf (https://github.com/wtfutil/wtf)
