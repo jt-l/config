@@ -47,6 +47,9 @@
   ## spotify playlists
   alias sp_parov="spotify play uri spotify:playlist:4n5eJ2OKEOE2lEStnUasAq"
 
+  ## terminal dashboard
+  alias dash="wtfutil"
+
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
 
