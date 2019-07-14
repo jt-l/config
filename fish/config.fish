@@ -50,6 +50,9 @@
   ## terminal dashboard
   alias dash="wtfutil"
 
+  ## weechat
+  alias weechat="weechat -d ~/.config/weechat"
+
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
 

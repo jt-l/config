@@ -22,3 +22,5 @@ editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
 cli music - shpotify (https://github.com/hnarayanan/shpotify)
 
 terminal dashboard - wtf (https://github.com/wtfutil/wtf)
+
+IRC/Slack client - weechat (https://github.com/weechat/weechat)
