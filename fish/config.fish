@@ -12,6 +12,7 @@
   alias ca="cargo add"
   alias cs="cargo search"
   alias cc="cargo check"
+  alias crm="cargo rm"
 
   ## git
   alias gs="git status"
@@ -51,7 +52,7 @@
   alias dash="wtfutil"
 
   ## weechat
-  alias weechat="weechat -d ~/.config/weechat"
+  alias chat="weechat -d ~/.config/weechat"
 
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
