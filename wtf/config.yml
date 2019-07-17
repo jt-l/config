@@ -132,3 +132,16 @@ wtf:
       showDeclined: true
       timezone: "America/Vancouver"
       withLocation: true
+    feedreader:
+      enabled: true
+      feeds:
+      - https://lobste.rs/rss
+      - http://dtrace.org/blogs/feed/
+      - https://lwn.net/headlines/rss
+      feedLimit: 10
+      position:
+        top: 0
+        left: 1
+        height: 1
+        width: 2
+      refreshInterval: 300
