@@ -56,6 +56,7 @@ wtf:
       repositories:
       - "/Users/james/software/rust/pkvstore/"
       - "/Users/james/software/rust/stocks/"
+      - "/Users/james/.config"
     ipinfo:
       colors:
         name: red

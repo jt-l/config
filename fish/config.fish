@@ -54,6 +54,9 @@
   ## weechat
   alias chat="weechat -d ~/.config/weechat"
 
+  ## hugo
+  alias hs="hugo server"
+
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
 
