@@ -15,12 +15,8 @@ terminal emulator - alacritty (https://github.com/jwilm/alacritty)
 
 terminal multiplexer - tmux (https://github.com/tmux/tmux)
 
-editor - nvim (https://github.com/neovim/neovim)
+editor - vim (https://github.com/vim/vim)
 
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
-
-cli music - shpotify (https://github.com/hnarayanan/shpotify)
-
-terminal dashboard - wtf (https://github.com/wtfutil/wtf)
 
 IRC/Slack client - weechat (https://github.com/weechat/weechat)
