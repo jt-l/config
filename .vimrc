@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 	Plug 'rust-lang/rust.vim'
 	Plug 'dag/vim-fish'
+  Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 set tabstop=2
