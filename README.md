@@ -20,3 +20,9 @@ editor - vim (https://github.com/vim/vim)
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
 
 IRC/Slack client - weechat (https://github.com/weechat/weechat)
+
+Window Manager - sway (https://github.com/swaywm) 
+
+Web Browser - qutebrowser (https://github.com/qutebrowser)
+
+PDF Viewer - llpp (https://repo.or.cz/w/llpp.git)
