@@ -26,3 +26,5 @@ Window Manager - sway (https://github.com/swaywm)
 Web Browser - qutebrowser (https://github.com/qutebrowser)
 
 PDF Viewer - llpp (https://repo.or.cz/w/llpp.git)
+
+LaTeX programs - TeX Live (https://tug.org/texlive/Contents/live/doc.html)
