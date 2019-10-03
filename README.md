@@ -19,12 +19,20 @@ editor - vim (https://github.com/vim/vim)
 
 editor pkg manager - vim-plug (https://github.com/junegunn/vim-plug)
 
-IRC/Slack client - weechat (https://github.com/weechat/weechat)
+irc/slack client - weechat (https://github.com/weechat/weechat)
 
-Window Manager - sway (https://github.com/swaywm) 
+window manager - sway (https://github.com/swaywm) 
 
-Web Browser - qutebrowser (https://github.com/qutebrowser)
+web browser - qutebrowser (https://github.com/qutebrowser)
 
-PDF Viewer - llpp (https://repo.or.cz/w/llpp.git)
+pdf viewer - llpp (https://repo.or.cz/w/llpp.git)
 
-LaTeX programs - TeX Live (https://tug.org/texlive/Contents/live/doc.html)
+latex programs - TeX Live (https://tug.org/texlive/Contents/live/doc.html)
+
+enhanced ls command - LSDeluxe (https://github.com/Peltoche/lsd)
+
+window focus animation - Flash Focus (https://github.com/flashfocus)
+
+Execute jobs from vim - Dispatch (https://github.com/tpope/vim-dispatch)
+
+notification daemon - Mako (https://github.com/emersion/mako)
