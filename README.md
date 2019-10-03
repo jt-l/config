@@ -33,7 +33,7 @@ enhanced ls command - LSDeluxe (https://github.com/Peltoche/lsd)
 
 window focus animation - Flash Focus (https://github.com/flashfocus)
 
-Execute jobs from vim - Dispatch (https://github.com/tpope/vim-dispatch)
+execute jobs from vim - Dispatch (https://github.com/tpope/vim-dispatch)
 
 notification daemon - Mako (https://github.com/emersion/mako)
 
