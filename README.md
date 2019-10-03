@@ -36,3 +36,5 @@ window focus animation - Flash Focus (https://github.com/flashfocus)
 Execute jobs from vim - Dispatch (https://github.com/tpope/vim-dispatch)
 
 notification daemon - Mako (https://github.com/emersion/mako)
+
+password manager - Pass (https://www.passwordstore.org/)
