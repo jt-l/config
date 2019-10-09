@@ -50,6 +50,9 @@
   alias svd="spotify vol down"
   alias sv="spotify vol"
 
+  # enhanced cat command
+  alias cat="bat"
+
   ## spotify playlists
   alias sp_parov="spotify play uri spotify:playlist:4n5eJ2OKEOE2lEStnUasAq"
 

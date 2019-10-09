@@ -38,3 +38,5 @@ execute jobs from vim - Dispatch (https://github.com/tpope/vim-dispatch)
 notification daemon - Mako (https://github.com/emersion/mako)
 
 password manager - Pass (https://www.passwordstore.org/)
+
+enhanced cat command - bat (https://www.github.com/sharkdp/bat)
