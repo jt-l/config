@@ -53,11 +53,23 @@
   # enhanced cat command
   alias cat="bat"
 
+  # navigation
+  alias ..="cd .."
+  alias ...="cd ../../"
+  alias ....="cd ../../../"
+  alias .....="cd ../../../../../"
+
   ## spotify playlists
   alias sp_parov="spotify play uri spotify:playlist:4n5eJ2OKEOE2lEStnUasAq"
 
   ## weechat
   alias chat="weechat -d ~/.config/weechat"
+
+  ## code 
+  alias code="cd ~/Software"
+
+  ## site 
+  alias site="cd ~/Software/personal-site"
 
   ## hugo
   alias hs="hugo server"
