@@ -41,4 +41,4 @@ password manager - Pass (https://www.passwordstore.org/)
 
 enhanced cat command - bat (https://www.github.com/sharkdp/bat)
 
-vim statusbar (bubblegum) - vim-airline (https://www.github.com/vim-airline/vim-airline)
+vim statusbar - vim-airline (https://www.github.com/vim-airline/vim-airline)
