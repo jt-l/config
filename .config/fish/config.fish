@@ -71,6 +71,9 @@
   ## site 
   alias site="cd ~/Software/personal-site"
 
+  ## school
+  alias school="cd ~/School/"
+
   ## hugo
   alias hs="hugo server"
 
