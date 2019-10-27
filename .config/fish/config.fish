@@ -53,6 +53,9 @@
   # enhanced cat command
   alias cat="bat"
 
+  # ls replacement
+  alias ls="exa"
+
   # navigation
   alias ..="cd .."
   alias ...="cd ../../"

@@ -29,7 +29,7 @@ pdf viewer - llpp (https://repo.or.cz/w/llpp.git)
 
 latex programs - TeX Live (https://tug.org/texlive/Contents/live/doc.html)
 
-enhanced ls command - LSDeluxe (https://github.com/Peltoche/lsd)
+ls replacement - Exa (https://github.com/ogham/exa)
 
 window focus animation - Flash Focus (https://github.com/flashfocus)
 
@@ -42,3 +42,5 @@ password manager - Pass (https://www.passwordstore.org/)
 enhanced cat command - bat (https://www.github.com/sharkdp/bat)
 
 vim statusbar - vim-airline (https://www.github.com/vim-airline/vim-airline)
+
+hex viewer - Hexyl (https://www.github.com/sharkdp/hexyl)
