@@ -44,3 +44,5 @@ enhanced cat command - bat (https://www.github.com/sharkdp/bat)
 vim statusbar - vim-airline (https://www.github.com/vim-airline/vim-airline)
 
 hex viewer - Hexyl (https://www.github.com/sharkdp/hexyl)
+
+execute commands in response to file modifications - watchexec (https://github.com/watchexec/watchexec)

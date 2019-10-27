@@ -35,6 +35,7 @@ glibc
 grep
 grim
 gzip
+hexyl
 hugo
 i3status
 inetutils
@@ -80,9 +81,11 @@ psmisc
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-i3ipc
+python-pip
 qutebrowser
 refind-efi
 reiserfsprogs
+rustup
 s-nail
 sed
 shadow
@@ -116,8 +119,10 @@ usbutils
 util-linux
 vi
 vim
+watchexec
 weechat
 which
+whois
 wpa_supplicant
 xfsprogs
 xorg-server-xwayland
