@@ -3,9 +3,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'dag/vim-fish'
   Plug 'plasticboy/vim-markdown'
   Plug 'tpope/vim-dispatch'
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
   Plug 'scrooloose/nerdtree'
+  Plug 'itchyny/lightline.vim'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug '~/.fzf'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -16,18 +15,16 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set autoindent
-
+set noshowmode "hide default vim status since we have lightline
 set relativenumber " Relative line numbers
 set number " Also show current absolute line
-
-let g:airline_theme='bubblegum'
 
 " Open NERDTree upon opening a file
 map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-" NERDTres File highlighting
+" NERDTree File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
  exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
@@ -74,3 +71,31 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" jump directly to diagnostics
+nmap <silent> E <Plug>(coc-diagnostic-prev)
+nmap <silent> W <Plug>(coc-diagnostic-next)
+
+" function to integrate coc with lightline
+function! CocCurrentFunction()
+    return get(b:, 'coc_current_function', '')
+endfunction
+
+" Lightline; integrate with cocstatus
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'cocstatus', 'filename' ] ]
+      \ },
+      \ 'component_function': {
+      \   'cocstatus': 'coc#status',
+      \   'currentfunction': 'CocCurrentFunction'
+      \ },
+      \ }
+
+function! LightlineFilename()
+  return expand('%:t') !=# '' ? @% : '[No Name]'
+endfunction
+
+set laststatus=2 "lightline wasn't appearing correctly, set this
