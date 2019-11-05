@@ -48,3 +48,9 @@ hex viewer - Hexyl (https://www.github.com/sharkdp/hexyl)
 execute commands in response to file modifications - watchexec (https://github.com/watchexec/watchexec)
 
 intellisense (go-to-definiton, autocomplete, linting, formating) - coc.nvim (https://github.com/neoclide/coc.nvim)
+
+clipboard - wl-clipboard (https://github.com/bugaevc/wl-clipboard)
+
+screenshots - grim (https://github.com/emersion/grim)
+
+screen grab - slurp (https://github.com/emersion/slurp)
