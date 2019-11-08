@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " colors
-source ~/.vim/happy_hacking.vim
+source ~/.vim/colors/happy_hacking.vim
 
 set tabstop=2
 set expandtab
