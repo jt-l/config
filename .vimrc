@@ -23,8 +23,11 @@ set smartindent
 set noshowmode "hide default vim status since we have lightline
 set relativenumber " Relative line numbers
 set number " Also show current absolute line
-set background=dark
-set colorcolumn=80
+
+"hacks to fix wrong bg color -- should look into this more
+" see https://github.com/microsoft/terminal/issues/832
+set t_ut=""
+set ttyscroll=1
 
 " Open NERDTree upon opening a file
 map <C-n> :NERDTreeToggle<CR>
@@ -36,6 +39,7 @@ function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
  exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
 endfunction
+  
 
 call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
 call NERDTreeHighlightFile('ini', 'yellow', 'none', 'yellow', '#151515')
@@ -50,7 +54,6 @@ call NERDTreeHighlightFile('css', 'cyan', 'none', 'cyan', '#151515')
 call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#151515')
 call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
-
 
 " NEOCLIDE/coc.nvim
 " Use tab for trigger completion with characters ahead and navigate.

@@ -203,7 +203,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $blue #285577
-set $gray #333333
+set $gray #262626
 set $red #900000
 
 #
