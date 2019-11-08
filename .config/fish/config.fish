@@ -2,6 +2,9 @@
     exec sway
   end
 
+  ## vi mode
+  fish_vi_key_bindings
+
   ## misc 
   alias dc="docker-compose"
   alias d="docker"
