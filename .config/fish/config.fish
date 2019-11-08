@@ -56,6 +56,9 @@
   # enhanced cat command
   alias cat="bat"
 
+  # we don't run emacs
+  alias emacs="v"
+
   # ls replacement
   alias ls="exa"
 

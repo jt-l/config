@@ -10,14 +10,21 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
+" colors
+source ~/.vim/happy_hacking.vim
+
 set tabstop=2
 set expandtab
+set smarttab
 set shiftwidth=2
 set softtabstop=2
 set autoindent
+set smartindent
 set noshowmode "hide default vim status since we have lightline
 set relativenumber " Relative line numbers
 set number " Also show current absolute line
+set background=dark
+set colorcolumn=80
 
 " Open NERDTree upon opening a file
 map <C-n> :NERDTreeToggle<CR>
@@ -83,7 +90,7 @@ endfunction
 
 " Lightline; integrate with cocstatus
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'jellybeans',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'cocstatus', 'filename' ] ]
