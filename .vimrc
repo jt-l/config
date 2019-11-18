@@ -8,10 +8,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug '~/.fzf'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'tpope/vim-abolish'
 call plug#end()
 
 " colors
 source ~/.vim/colors/happy_hacking.vim
+
 
 set tabstop=2
 set expandtab
@@ -23,11 +25,18 @@ set smartindent
 set noshowmode "hide default vim status since we have lightline
 set relativenumber " Relative line numbers
 set number " Also show current absolute line
+set background=dark
+
+" leader key
+let mapleader='\'
 
 "hacks to fix wrong bg color -- should look into this more
 " see https://github.com/microsoft/terminal/issues/832
 set t_ut=""
 set ttyscroll=1
+
+" faster search and replace
+nnoremap <leader>r :%s/\<<C-r><C-w>\>//gc<left><left><left>
 
 " Open NERDTree upon opening a file
 map <C-n> :NERDTreeToggle<CR>
