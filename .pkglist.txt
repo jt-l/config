@@ -1,7 +1,10 @@
+aerc
 alacritty
 alsa-utils
+arduino
 autoconf
 automake
+autopep8
 bash
 bat
 binutils
@@ -25,6 +28,7 @@ findutils
 fish
 flashfocus-git
 flex
+fritzing
 fzf
 gawk
 gcc
@@ -32,6 +36,7 @@ gcc-libs
 gettext
 git
 glibc
+go
 grep
 grim
 gzip
@@ -47,6 +52,7 @@ jdk-openjdk
 jfsutils
 keybase-bin
 less
+libnotify
 libtool
 licenses
 light
@@ -82,6 +88,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python-i3ipc
 python-pip
+python-pylint
 qutebrowser
 refind-efi
 reiserfsprogs
@@ -119,10 +126,12 @@ usbutils
 util-linux
 vi
 vim
+vscodium-bin
 watchexec
 weechat
 which
 whois
+wl-clipboard
 wpa_supplicant
 xfsprogs
 xorg-server-xwayland
