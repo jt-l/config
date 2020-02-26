@@ -1,12 +1,13 @@
 source $current_dirname/../functions/_pure_prompt_first_line.fish
+source $current_dirname/../functions/_pure_set_color.fish
 
 set --local empty ''
 
 function setup
-    set pure_color_current_directory $pure_color_primary
-    set pure_color_git_branch $pure_color_mute
-    set pure_color_git_dirty $pure_color_mute
-    set pure_color_command_duration $pure_color_warning
+    set --global pure_color_current_directory $pure_color_primary
+    set --global pure_color_git_branch $pure_color_mute
+    set --global pure_color_git_dirty $pure_color_mute
+    set --global pure_color_command_duration $pure_color_warning
 
     mkdir -p /tmp/test
     cd /tmp/test
@@ -49,6 +50,7 @@ end
 ) = 1
 
 @test "_pure_prompt_first_line: print current directory, git, user@hostname (ssh-only), command duration" (
+    set pure_enable_git true
     set pure_begin_prompt_with_current_directory true
     _pure_prompt_first_line
 
@@ -56,9 +58,9 @@ end
 ) = '/tmp/test master user@hostname 1s'
 
 @test "_pure_prompt_first_line: print user@hostname (ssh-only), current directory, git, command duration" (
+    set pure_enable_git true
     set pure_begin_prompt_with_current_directory false
     _pure_prompt_first_line
 
     rm -r -f /tmp/test
 ) = 'user@hostname /tmp/test master 1s'
-

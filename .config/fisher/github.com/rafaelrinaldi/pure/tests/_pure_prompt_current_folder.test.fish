@@ -1,5 +1,6 @@
 source $current_dirname/../functions/_pure_prompt_current_folder.fish
 source $current_dirname/../functions/_pure_parse_directory.fish
+source $current_dirname/../functions/_pure_set_color.fish
 
 set --local empty ''
 set --local fail 1
@@ -9,10 +10,9 @@ set --local fail 1
 ) $status -eq $fail
 
 @test "_pure_prompt_current_folder: returns current folder" (
-    set pure_color_current_directory $empty
+    set --global pure_color_current_directory $empty
     set COLUMNS 20
     set current_prompt_width 10
 
     string length (_pure_prompt_current_folder "$current_prompt_width")
 ) = 8
-

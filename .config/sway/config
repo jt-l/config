@@ -232,5 +232,6 @@ default_border pixel 4
 
 focus_on_window_activation urgent
 
+assign [class="^slack$"] → $ws4
 
 include /etc/sway/config.d/*

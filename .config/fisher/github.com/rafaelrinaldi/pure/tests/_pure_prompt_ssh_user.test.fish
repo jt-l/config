@@ -1,7 +1,8 @@
 source $current_dirname/../functions/_pure_prompt_ssh_user.fish
+source $current_dirname/../functions/_pure_set_color.fish
 
 @test "_pure_prompt_ssh_user: colorize standard user" (
-    set pure_color_ssh_user_normal (set_color green)
+    set --global pure_color_ssh_user_normal green
 
     _pure_prompt_ssh_user
 
@@ -12,9 +13,8 @@ source $current_dirname/../functions/_pure_prompt_ssh_user.fish
         echo 'root'
     end
 
-    set pure_color_ssh_user_root (set_color red)
+    set --global pure_color_ssh_user_root red
 
     _pure_prompt_ssh_user
 
 ) = (set_color red)'root'
-

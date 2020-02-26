@@ -1,5 +1,6 @@
 source $current_dirname/../functions/_pure_prompt_git_branch.fish
 source $current_dirname/../functions/_pure_parse_git_branch.fish
+source $current_dirname/../functions/_pure_set_color.fish
 
 function setup
     mkdir -p /tmp/test_pure_prompt_git_branch  # prevent conflict between parallel test files
@@ -15,8 +16,7 @@ function teardown
 end
 
 @test "_pure_prompt_git_branch: show branch name in gray" (
-    set pure_color_git_branch (set_color brblack)
+    set --global pure_color_git_branch brblack
 
     _pure_prompt_git_branch
 ) = (set_color brblack)'master'
-

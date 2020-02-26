@@ -21,10 +21,10 @@ set --local empty ''
 ) = "❮"
 
 @test "configure: pure_reverse_prompt_symbol_in_vimode" (
-        set --erase pure_reverse_prompt_symbol_in_vimode
-        source $current_dirname/../conf.d/pure.fish
-        echo $pure_reverse_prompt_symbol_in_vimode
-    ) = true
+    set --erase pure_reverse_prompt_symbol_in_vimode
+    source $current_dirname/../conf.d/pure.fish
+    echo $pure_reverse_prompt_symbol_in_vimode
+) = true
 
 @test "configure: pure_symbol_git_unpulled_commits"  (
     set --erase pure_symbol_git_unpulled_commits
@@ -54,127 +54,133 @@ set --local empty ''
     set --erase pure_color_primary
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_primary
-) = (set_color blue)
+) = blue
 
 @test "configure: pure_color_info"  (
     set --erase pure_color_info
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_info
-) = (set_color cyan)
+) = cyan
 
 @test "configure: pure_color_mute"  (
     set --erase pure_color_mute
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_mute
-) = (set_color brblack)
+) = brblack
 
 @test "configure: pure_color_success"  (
     set --erase pure_color_success
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_success
-) = (set_color magenta)
+) = magenta
 
 @test "configure: pure_color_normal"  (
     set --erase pure_color_normal
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_normal
-) = (set_color normal)
+) = normal
 
 @test "configure: pure_color_danger"  (
     set --erase pure_color_danger
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_danger
-) = (set_color red)
+) = red
 
 @test "configure: pure_color_light"  (
     set --erase pure_color_light
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_light
-) = (set_color white)
+) = white
 
 @test "configure: pure_color_warning"  (
     set --erase pure_color_warning
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_warning
-) = (set_color yellow)
+) = yellow
 
 @test "configure: pure_color_command_duration"  (
     set --erase pure_color_command_duration
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_command_duration
-) = (set_color yellow)
+) = pure_color_warning
 
 @test "configure: pure_color_current_directory"  (
     set --erase pure_color_current_directory
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_current_directory
-) = (set_color blue)
+) = pure_color_primary
 
 @test "configure: pure_color_git_unpushed_commits"  (
     set --erase pure_color_git_unpushed_commits
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_git_unpushed_commits
-) = (set_color cyan)
+) = pure_color_info
 
 @test "configure: pure_color_git_unpulled_commits"  (
     set --erase pure_color_git_unpulled_commits
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_git_unpulled_commits
-) = (set_color cyan)
+) = pure_color_info
 
 @test "configure: pure_color_git_branch"  (
     set --erase pure_color_git_branch
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_git_branch
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_color_git_dirty"  (
     set --erase pure_color_git_dirty
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_git_dirty
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_color_ssh_hostname"  (
     set --erase pure_color_ssh_hostname
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_ssh_hostname
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_color_ssh_separator"  (
     set --erase pure_color_ssh_separator
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_ssh_separator
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_color_ssh_user_normal"  (
     set --erase pure_color_ssh_user_normal
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_ssh_user_normal
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_color_ssh_user_root"  (
     set --erase pure_color_ssh_user_root
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_ssh_user_root
-) = (set_color white)
+) = pure_color_light
 
 @test "configure: pure_color_prompt_on_error"  (
     set --erase pure_color_prompt_on_error
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_prompt_on_error
-) = (set_color red)
+) = pure_color_danger
 
 @test "configure: pure_color_prompt_on_success"  (
     set --erase pure_color_prompt_on_success
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_prompt_on_success
-) = (set_color magenta)
+) = pure_color_success
+
+@test "configure: pure_color_jobs"  (
+    set --erase pure_color_jobs
+    source $current_dirname/../conf.d/pure.fish
+    echo $pure_color_jobs
+) = pure_color_normal
 
 @test "configure: pure_color_virtualenv"  (
     set --erase pure_color_virtualenv
     source $current_dirname/../conf.d/pure.fish
     echo $pure_color_virtualenv
-) = (set_color brblack)
+) = pure_color_mute
 
 @test "configure: pure_begin_prompt_with_current_directory"  (
     set --erase pure_begin_prompt_with_current_directory
@@ -193,15 +199,3 @@ set --local empty ''
     source $current_dirname/../conf.d/pure.fish
     echo $pure_threshold_command_duration
 ) = 5
-
-@test "configure: pure_right_prompt"  (
-    set --erase pure_right_prompt
-    source $current_dirname/../conf.d/pure.fish
-    echo $pure_right_prompt
-) = ""
-
-@test "configure: pure_color_right_prompt"  (
-    set --erase pure_color_right_prompt
-    source $current_dirname/../conf.d/pure.fish
-    echo $pure_color_right_prompt
-) = (set_color normal)

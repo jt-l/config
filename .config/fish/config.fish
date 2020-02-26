@@ -5,13 +5,18 @@
   ## vi mode
   fish_vi_key_bindings
 
+  ## node version manager
+  function nvm
+           bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+  end
+
   ## misc 
   alias dc="docker-compose"
   alias d="docker"
   alias k="kubectl"
   alias v="vim"
   alias vol="alsamixer"
-  alias cls="clear"
+  alias c="clear"
 
   ## cargo
   alias ct="cargo test"
@@ -85,6 +90,9 @@
 
   ## hugo
   alias hs="hugo server"
+
+  ## leetcode
+  alias lc="leetcode"
 
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
