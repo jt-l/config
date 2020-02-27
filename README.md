@@ -3,8 +3,6 @@ CONFIG
 
 ![Alt text](/.config/images/image.png "Workspace")
 
-config + useful programs
-
 shell - fish (https://github.com/fish-shell/fish-shell)
 
 shell prompt - pure (https://github.com/rafaelrinaldi/pure)
