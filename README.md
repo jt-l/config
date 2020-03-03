@@ -54,3 +54,7 @@ clipboard - wl-clipboard (https://github.com/bugaevc/wl-clipboard)
 screenshots - grim (https://github.com/emersion/grim)
 
 screen grab - slurp (https://github.com/emersion/slurp)
+
+debug kernel/user processes - strace (https://github.com/strace/strace)
+
+performance profiling - perf (https://github.com/brendangregg/perf-tools)

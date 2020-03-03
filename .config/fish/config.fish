@@ -27,6 +27,9 @@
   alias cc="cargo check"
   alias crm="cargo rm"
 
+  ## go
+  alias gb = "go build"
+
   ## git
   alias gs="git status"
   alias gp="git pull"
@@ -96,6 +99,9 @@
 
   ## rust
   export PATH="$HOME/.cargo/bin:$PATH"
+
+  ## go
+  export PATH="$PATH:/usr/local/go/bin"
 
   ## path to editor bin
   export EDITOR="/usr/bin/vim"
