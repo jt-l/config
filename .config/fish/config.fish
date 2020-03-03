@@ -28,7 +28,7 @@
   alias crm="cargo rm"
 
   ## go
-  alias gb = "go build"
+  alias gb="go build"
 
   ## git
   alias gs="git status"
