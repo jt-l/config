@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug '~/.fzf'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-abolish'
+  Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " colors
