@@ -58,3 +58,5 @@ screen grab - slurp (https://github.com/emersion/slurp)
 debug kernel/user processes - strace (https://github.com/strace/strace)
 
 performance profiling - perf (https://github.com/brendangregg/perf-tools)
+
+enhanced vim navigation - vim-sneak (https://github.com/justinmk/vim-sneak)
