@@ -103,5 +103,8 @@
   ## go
   export PATH="$PATH:/usr/local/go/bin"
 
+  ## go bins
+  export PATH="$PATH:/home/jt/go/bin"
+
   ## path to editor bin
   export EDITOR="/usr/bin/vim"

@@ -31,6 +31,9 @@ set background=dark
 " leader key
 let mapleader='\'
 
+" vim sneak 'clever s'
+let g:sneak#s_next = 1
+
 "hacks to fix wrong bg color -- should look into this more
 " see https://github.com/microsoft/terminal/issues/832
 set t_ut=""
