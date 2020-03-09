@@ -29,6 +29,7 @@
 
   ## go
   alias gb="go build"
+  alias gt="go test"
 
   ## git
   alias gs="git status"
