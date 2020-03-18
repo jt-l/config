@@ -6,7 +6,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
   Plug 'itchyny/lightline.vim'
   Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug '~/.fzf'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-abolish'
   Plug 'justinmk/vim-sneak'
@@ -15,6 +14,26 @@ call plug#end()
 " colors
 source ~/.vim/colors/happy_hacking.vim
 
+" current millenium
+set nocompatible
+
+filetype plugin on
+
+"FINDING FILES:
+
+" Search down into subfolders
+" Provides tab-compl for all file-related tasks
+set path+=**
+
+"display all matching files when we tab complete
+set wildmenu
+
+"NOW WE CAN:
+" hit tab to :find by partial match
+" Use * to make it fuzzy
+"
+" BUFFERS:
+" :b autocomplete any open buffer
 
 set tabstop=2
 set expandtab
