@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-abolish'
   Plug 'justinmk/vim-sneak'
+  Plug 'elixir-editors/vim-elixir'
 call plug#end()
 
 " colors
