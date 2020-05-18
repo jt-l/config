@@ -167,6 +167,8 @@ font:
   # effect.
   use_thin_strokes: true
 
+custom_cursor_colors: true
+
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
@@ -191,7 +193,7 @@ colors:
   # the cursor color will be the inverse of the cell color.
   cursor:
     text: '0x000000'
-    cursor: '0xffffff'
+    cursor: '0x00ff00'
 
   # Selection colors
   #
