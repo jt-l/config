@@ -254,3 +254,6 @@ assign [class="^slack$"] → $ws4
 
 include /etc/sway/config.d/*
 
+# hide cursor
+seat * hide_cursor 8000
+
